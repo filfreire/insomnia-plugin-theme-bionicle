@@ -1,23 +1,35 @@
 {
   "name": "insomnia-plugin-theme-bionicle",
   "version": "1.0.0",
-  "author": {
-    "name": "Filipe Freire",
-    "email": "livrofubia@gmail.com"
-  },
+  "author": "Filipe Freire <livrofubia@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/filfreire/insomnia-plugin-theme-bionicle.git"
+    "url": "git+https://github.com/filfreire/insomnia-plugin-theme-bionicle.git"
   },
   "insomnia": {
     "name": "Bionicle theme",
-    "displayName":"Bionicle theme",
+    "displayName": "Bionicle theme",
     "description": "Uses dark color schema and adds Bionicle Toa Tahu img to background",
     "images": {
       "icon": "tahu.png",
       "cover": "cover.jpg"
     }
   },
-  "main": "main.js"
+  "main": "main.js",
+  "description": "Theme for insomnia that is using default \"Core Default\" colors and adds Toa Tahu image to the left bottom corner.",
+  "bugs": {
+    "url": "https://github.com/filfreire/insomnia-plugin-theme-bionicle/issues"
+  },
+  "homepage": "https://github.com/filfreire/insomnia-plugin-theme-bionicle#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "insomnia",
+    "theme",
+    "bionicle",
+    "plugins"
+  ]
 }
