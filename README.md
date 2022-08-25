@@ -8,7 +8,7 @@ Adapted from https://github.com/Kubas556/insomnia-plugin-luna-theme for example 
 
 ## Preview
 
-
+<img style="width:50%" src="./cover.jpg">
 
 ## Image used in plugin
 
