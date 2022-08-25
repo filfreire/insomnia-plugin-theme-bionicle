@@ -1,10 +1,23 @@
 {
   "name": "insomnia-plugin-theme-bionicle",
-  "version": "0.0.1",
-  "private": true,
+  "version": "1.0.0",
+  "author": {
+    "name": "Filipe Freire",
+    "email": "livrofubia@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/filfreire/insomnia-plugin-theme-bionicle.git"
+  },
   "insomnia": {
-    "name": "theme-bionicle",
-    "description": ""
+    "name": "Bionicle theme",
+    "displayName":"Bionicle theme",
+    "description": "Uses dark color schema and adds Bionicle Toa Tahu img to background",
+    "images": {
+      "icon": "tahu.png",
+      "cover": "cover.jpg"
+    }
   },
   "main": "main.js"
 }
